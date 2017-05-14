@@ -1,0 +1,27 @@
+header {
+	padding-bottom: 30px;
+}
+header h1 {
+	color: #FFF;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.main {
+	padding-top: 30px;
+}
+.main h2 {
+	margin-bottom: 20px;
+}
+.main table td:first-child {
+	color: #999;
+	padding-left: 15px;
+}
+.main .list-icon {
+	width: 20px;
+}
+.main .list-title {
+	font-weight: normal;
+}
+.main .list-singer {
+	font-weight: normal;
+}

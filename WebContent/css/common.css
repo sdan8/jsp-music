@@ -1,0 +1,65 @@
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+header {
+	flex: 0 0 auto;
+}
+section.main {
+	flex: 1 0 auto;
+}
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+.theme-bg-color {
+	background-color: #1ABC9C;
+}
+.theme-color {
+	color: #1ABC9C;
+}
+.white-color {
+	color: #FFFFFF;
+}
+
+/* 导航栏开始 */
+.navbar-default {
+	margin-bottom: 0;
+	border: 0;
+	background-color: #1ABC9C;
+}
+.navbar-default .navbar-brand {
+	height: 70px;
+	padding-top: 0;
+}
+.navbar-default .navbar-brand img {
+	height: 70px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 70px;
+	/*padding-top: 0;
+	padding-bottom: 0;*/
+	padding: 0 20px;
+}
+/* 导航栏结束 */
+/* 尾部 */
+footer {
+	margin-top: 10px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #1ABC9C;
+	color: #FFF;
+	text-align: center;
+	flex: 0 0 auto;
+}
+footer nav {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

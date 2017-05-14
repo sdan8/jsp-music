@@ -1,0 +1,74 @@
+.main {
+	padding-top: 30px;
+}
+/* 专辑描述 */
+.description h1 {
+	margin-bottom: 20px;
+}
+.description .media-left {
+	padding-right: 40px;
+}
+.description .singer-info {
+	color: #999;
+	margin-bottom: 10px;
+}
+.description .singer{
+	color: #0B5345;
+}
+/* 专辑描述结束*/
+.toolbar {
+	margin-top: 30px;
+}
+/* 专辑介绍 */
+.singer-desc {
+	margin-bottom: 30px;
+}
+.singer-desc h3 {
+	font-size: 16px;
+}
+.singer-desc p {
+	text-indent: 2em;
+	color: #666;
+}
+/* 专辑介绍结束*/
+/* 歌曲列表 */
+.hot {
+	padding-top: 10px;
+}
+.hot h2 {
+	margin-bottom: 20px;
+}
+.hot table td:first-child {
+	color: #999;
+	padding-left: 15px;
+}
+.hot .hot-num {
+	width: 5%;
+}
+.hot .hot-icon {
+	width: 5%;
+}
+.hot .hot-title {
+	font-weight: normal;
+}
+.hot .hot-singer {
+	font-weight: normal;
+	width: 25%;
+}
+/* 歌曲列表结束*/
+/* 所有专辑 */
+.albumlist {
+	padding-top: 10px;
+}
+.albumlist h2 {
+	margin-bottom: 20px;
+}
+.albumlist h4 {
+	font-size: 14px;
+}
+.albumlist h5 {
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 0;
+}
+/* 所有专辑结束 */

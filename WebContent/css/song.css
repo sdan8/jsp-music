@@ -1,0 +1,69 @@
+body {
+	padding-bottom: 90px; /* 播放器高度 */
+}
+/* 播放器定位底部 */
+.player-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#player {
+	margin: 0;
+	width: 100%;
+}
+/* 覆盖bootstrap的样式影响 */
+#player * {
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#player .aplayer-info {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+/* 歌曲描述 */
+.description {
+	padding-top: 30px;
+}
+.description h1 {
+	margin-bottom: 20px;
+}
+.description .media-left {
+	padding-right: 40px;
+}
+.description .music-info {
+	color: #999;
+	margin-bottom: 10px;
+}
+.description .singer {
+	color: #0B5345;
+}
+.description .album {
+	color: #0B5345;
+}
+/* 歌曲描述结束 */
+/* 工具栏 */
+.toolbar {
+	margin-top: 30px;
+}
+/* 工具栏结束 */
+/* 评论 */
+.comments {
+	margin-top: 70px;
+}
+.comments h2 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1ABC9C;
+}
+.comments .media {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+}
+.comments .nickname {
+	/*color: #337ab7;*/
+}
+.comments .comments-pager nav{
+	text-align: center;
+}
+/* 评论结束 */

@@ -1,0 +1,42 @@
+header {
+	padding-bottom: 30px;
+}
+header h1 {
+	color: #FFF;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.main-content {
+	padding-top: 40px;
+}
+.main-content section {
+	margin-bottom: 25px;
+}
+.main-content h2 {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.music-item {
+	margin-bottom: 10px;
+	padding: 10px 15px;
+}
+.music-item:hover {
+	background-color: #F5F5F5;
+	/*box-shadow: 1px 1px 5px #CCC;*/
+}
+.media-object {
+	height: 64px;
+	width: 64px;
+}
+.singer a {
+	color: #777;
+}
+.singer a:hover {
+	color: #333;
+}
+.album a {
+	color: #AAA;
+}
+.album a:hover {
+	color: #696969;
+}

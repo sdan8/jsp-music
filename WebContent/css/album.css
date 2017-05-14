@@ -1,0 +1,58 @@
+.main {
+	padding-top: 30px;
+}
+/* 专辑描述 */
+.description h1 {
+	margin-bottom: 20px;
+}
+.description .media-left {
+	padding-right: 40px;
+}
+.description .album-info {
+	color: #999;
+	margin-bottom: 10px;
+}
+.description .singer, .description .date, .description .company {
+	color: #0B5345;
+}
+/* 专辑描述结束*/
+.toolbar {
+	margin-top: 30px;
+}
+/* 专辑介绍 */
+.album-desc {
+	margin-bottom: 30px;
+}
+.album-desc h3 {
+	font-size: 16px;
+}
+.album-desc p {
+	text-indent: 2em;
+	color: #666;
+}
+/* 专辑介绍结束*/
+/* 歌曲列表 */
+.list {
+	padding-top: 10px;
+}
+.list h2 {
+	margin-bottom: 20px;
+}
+.list table td:first-child {
+	color: #999;
+	padding-left: 15px;
+}
+.list .list-num {
+	width: 5%;
+}
+.list .list-icon {
+	width: 5%;
+}
+.list .list-title {
+	font-weight: normal;
+}
+.list .list-singer {
+	font-weight: normal;
+	width: 25%;
+}
+/* 歌曲列表结束*/
